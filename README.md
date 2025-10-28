@@ -72,11 +72,58 @@ It enhances operational efficiency while ensuring inclusivity, transparency, and
 
 ---
 
-## 🧱 Tech Stack
-- **Web Backend:** Python  
-- **Mobile App:** Java (Android)  
+## 🔹 Technologies Used
+
+### 🖥️ Web Application
+- **Language:** Python  
+- **Framework:** Flask  
+- **Frontend:** HTML, CSS, JavaScript  
 - **Database:** MySQL  
-- **Other Tools/Frameworks:** 
+- **Libraries & Modules:**
+  - Flask-Mail – for sending OTPs via email  
+  - ReportLab – for generating PDF hall tickets  
+  - qrcode – for QR code generation  
+  - dotenv – for environment variable management  
+  - werkzeug – for password hashing and security  
+  - flask_cors, flask_logging – for CORS and access log handling  
+
+---
+
+### ⚙️ Backend Integration (Connector)
+- **Language:** PHP  
+- **Server:** WAMP (Apache + MySQL + PHP)  
+- **Purpose:** Acts as a bridge between mobile app and backend database  
+- **Libraries & Features:**
+  - PDO – for secure MySQL connection  
+  - JSON handling – for API communication  
+
+---
+
+### 📱 Mobile Application
+- **Platform:** Android (Developed in Android Studio)  
+- **Languages Used:** Java and Kotlin  
+- **Libraries & Dependencies:**
+  - AndroidX Core, AppCompat, ConstraintLayout  
+  - Material Design Components  
+  - Navigation Components  
+  - Biometric Library (for fingerprint scanning)  
+  - ZXing (for QR code scanning)  
+  - Retrofit + OkHttp + Gson (for REST API communication)  
+  - Room Database (for local data storage)  
+  - Lifecycle ViewModel + LiveData  
+  - Kotlin Coroutines (for background tasks)  
+  - Multidex, Annotations, Espresso & JUnit (for testing)  
+- **Hardware Integration:** Mantra MFS100 Fingerprint Scanner  
+
+---
+
+### 🧰 Tools & Environment
+- **IDE:** Visual Studio Code (Web), Android Studio (Mobile)  
+- **Server Environment:** WAMP (Windows Apache MySQL PHP)  
+- **Version Control:** Git & GitHub  
+- **Email Service:** SMTP (used via Flask-Mail)  
+- **Local Hosting:** PHP + Python on localhost  
+- **Operating System:** Windows  
 
 ---
 
