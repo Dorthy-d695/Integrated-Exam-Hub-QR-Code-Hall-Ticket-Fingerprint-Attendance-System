@@ -8,73 +8,73 @@ The full implementation (including backend logic and biometric modules) is propr
 
 ---
 
-## 🔹 Project Overview
+## ‣ Project Overview
 The **Integrated Exam Hub** simplifies and secures the entire exam lifecycle — from hall allocation and staff scheduling to student authentication and attendance tracking.  
 It enhances operational efficiency while ensuring inclusivity, transparency, and academic integrity.
 
 ---
 
-## ⚙️ Features
+## ‣ Features
 
-### 🧮 Dynamic Hall Allocation
-- 📅 Automatically generates **timetables for each course**.  
-- 🏫 Schedules **exam rooms** for each session (with date and time).  
-- 🎓 Allocates **students to rooms** based on their registered exams and seat numbers.  
-- ♿ Ensures **inclusive access**:  
-      ➜ Students with disabilities are prioritized for first-floor rooms (as lifts or ramps may be unavailable, inaccessible, or not functional in many colleges).  
-- 👩‍🏫 After student allocation, assigns **staff invigilators** to each room and session.  
-- 🎟️ Generates **digital hall tickets** for students and displays staff schedules (date, time, and assigned exam hall) on their dashboards.
-
----
-
-### 🔐 Two-Step Verification (QR Code + Fingerprint)
-- Combines **QR Code** and **Fingerprint Scanning** for secure and verified student check-ins.  
-
-- **QR Code Hall Ticket:**  
-  ➜ Each student’s QR code contains essential details such as **Subject ID**, **Subject Name**, **Exam Date**, **Session**, **Hall Name**, **Building**, and **Seat Number**.  
-  ➜ Scanning the QR code retrieves the student’s details directly from the web portal.  
-
-- **Fingerprint Verification:**  
-  ➜ Accessible **only to staff** through the mobile app.  
-  ➜ Each student’s fingerprint is securely stored and hashed in the database.  
-  ➜ Invigilator enters the **Student ID** → scans the fingerprint → system verifies against stored data.  
-  ➜ If the fingerprint matches, a **“Verification Success”** message appears.  
-  ➜ Both QR and fingerprint checks happen seamlessly within the app for quick identity validation.
+### 🔹 Dynamic Hall Allocation
+-  Automatically generates **timetables for each course**.  
+-  Schedules **exam rooms** for each session (with date and time).  
+-  Allocates **students to rooms** based on their registered exams and seat numbers.  
+-  Ensures **inclusive access**:  
+              →  Students with disabilities are prioritized for first-floor rooms (as lifts or ramps may be unavailable, inaccessible, or                  not functional in many colleges).  
+-  After student allocation, assigns **staff invigilators** to each room and session.  
+-  Generates **digital hall tickets** for students and displays staff schedules (date, time, and assigned exam hall) on their dashboards.
 
 ---
 
-### 🖥️ Dashboards (Separate for Students & Staff)
-- **Dedicated login portals** for each role.  
-- **Two-step login verification:**  
-  ➜ Student/Staff ID + Password  
-  ➜ OTP sent to the registered college email ID (Both the ID and email ID are stored in the database, and the dashboard opens only when they are verified as correct.)
+### 🔹 Two-Step Verification (QR Code + Fingerprint)
+-  Combines **QR Code** and **Fingerprint Scanning** for secure and verified student check-ins.  
+
+-  **QR Code Hall Ticket:**  
+               →  Each student’s QR code contains essential details such as **Subject ID**, **Subject Name**, **Exam Date**, **Session**,                   **Hall Name**, **Building**, and **Seat Number**.  
+               →  Scanning the QR code retrieves the student’s details directly from the web portal.  
+
+-  **Fingerprint Verification:**  
+               →  Accessible **only to staff** through the mobile app.  
+               →  Each student’s fingerprint is securely stored and hashed in the database.  
+               →  Invigilator enters the **Student ID** → scans the fingerprint → system verifies against stored data.  
+               →  If the fingerprint matches, a **“Verification Success”** message appears.  
+               →  Both QR and fingerprint checks happen seamlessly within the app for quick identity validation.
+
+---
+
+### 🔹 Dashboards (Separate for Students & Staff)
+-  **Dedicated login portals** for each role.  
+-  **Two-step login verification:**  
+              →  Student/Staff ID + Password  
+              →  OTP sent to the registered college email ID (Both the ID and email ID are stored in the database, and the dashboard                       opens only when they are verified as correct.)
   
-- **Student Dashboard:**  
-  ➜ Download hall tickets.  
-  ➜ View exam schedules and venues.  
+-  **Student Dashboard:**  
+              →  Download hall tickets.  
+              →  View exam schedules and venues.  
 
-- **Staff Dashboard:**  
-  ➜ View invigilation assignments by date and session.  
-  ➜ Access student verification data and exam details.
-
----
-
-### 🔔 Real-Time Exam Alerts
-- Sends **exam notifications and venue details** via **email**.  
-- *(Planned update: WhatsApp integration for faster alerts.)*
+-  **Staff Dashboard:**  
+              →  View invigilation assignments by date and session.  
+              →  Access student verification data and exam details.
 
 ---
 
-### 🔒 Secure Data Handling
-- 🔑 Passwords are **hashed** before storing — even admins cannot view them.  
-- 🧬 **Biometric data (fingerprints)** are securely encrypted and used only for authentication.  
-- ✅ Complies with privacy and data security standards.
+### 🔹 Real-Time Exam Alerts
+-  Sends **exam notifications and venue details** via **email**.  
+-  *(Planned update: WhatsApp integration for faster alerts.)*
 
 ---
 
-## 🔹 Technologies Used
+### 🔹 Secure Data Handling
+-  Passwords are **hashed** before storing — even admins cannot view them.  
+-  **Biometric data (fingerprints)** are securely encrypted and used only for authentication.  
+-  Complies with privacy and data security standards.
 
-### 🖥️ Web Application
+---
+
+## ‣ Technologies Used
+
+### 🔹 Web Application
 - **Language:** Python  
 - **Framework:** Flask  
 - **Frontend:** HTML, CSS, JavaScript  
@@ -85,11 +85,13 @@ It enhances operational efficiency while ensuring inclusivity, transparency, and
   - qrcode – for QR code generation  
   - dotenv – for environment variable management  
   - werkzeug – for password hashing and security  
-  - flask_cors, flask_logging – for CORS and access log handling  
+  - flask_cors, flask_logging – for CORS and access log handling
+  - **Streamlit (for allocation visualization/demo)**
+
 
 ---
 
-### ⚙️ Backend Integration (Connector)
+### 🔹 Backend Integration (Connector)
 - **Language:** PHP  
 - **Server:** WAMP (Apache + MySQL + PHP)  
 - **Purpose:** Acts as a bridge between mobile app and backend database  
@@ -99,7 +101,7 @@ It enhances operational efficiency while ensuring inclusivity, transparency, and
 
 ---
 
-### 📱 Mobile Application
+### 🔹 Mobile Application
 - **Platform:** Android (Developed in Android Studio)  
 - **Languages Used:** Java and Kotlin  
 - **Libraries & Dependencies:**
@@ -117,7 +119,7 @@ It enhances operational efficiency while ensuring inclusivity, transparency, and
 
 ---
 
-### 🧰 Tools & Environment
+### 🔹 Tools & Environment
 - **IDE:** Visual Studio Code (Web), Android Studio (Mobile)  
 - **Server Environment:** WAMP (Windows Apache MySQL PHP)  
 - **Version Control:** Git & GitHub  
@@ -127,26 +129,26 @@ It enhances operational efficiency while ensuring inclusivity, transparency, and
 
 ---
 
-## 💡 Project Scope
+## ‣ Project Scope
 - Developed as a **Postgraduate Final Year Project** (Solo Development).  
 - All technologies learned and implemented through **self-study and online research**.  
 - Demonstrates integration between **web systems, mobile applications, and biometric authentication**.
 
 ---
 
-## 🚀 Future Improvements
+## ‣ Future Improvements
 - Add **WhatsApp or SMS alerts** for notifications.  
 - Implement **AI-based hall allocation optimization** for large institutions.  
 - Introduce **cloud-based backup** and data analytics dashboard for administrators.
 
 ---
 
-## 🧑‍💻 Developer
+## ‣ Developer
 - **Project Developer:** Maria Dorthy   
 - **Institution:** Anna University 
 - **Project Type:** PG Final Project (Solo)  
 - Technologies learned and implemented independently with help from online resources.
 
 ---
-## ⚖️ License
+## ‣ License
 See [LICENSE.md](LICENSE.md) — All rights reserved.
