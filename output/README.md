@@ -1,4 +1,4 @@
-# Output Screens (Web + Mobile + Hall Allocation Demo)
+# Output Screens (Website + Mobile Application + Hall Allocation)
 
 This section contains the visual outputs of the **Integrated Exam Hub: QR Code Hall Ticket & Fingerprint Attendance System**.  
 Each screenshot demonstrates a key function of the system and showcases the workflow across the Web Portal, Mobile Application, and Hall Allocation module.
@@ -16,7 +16,7 @@ Each screenshot demonstrates a key function of the system and showcases the work
 | **Student_Login_OTP_Sent** | Confirmation screen showing OTP has been sent to registered email. |
 | **Student_DashBoard1 / Student_DashBoard2** | Student dashboard showing hall ticket access, exam schedule, and alerts. |
 | **Student_Timetable** | Page displaying the student's complete exam timetable (date, session, hall). |
-| **student_report_CYA01AAS1264.pdf** | Example of auto-generated hall ticket PDF containing QR Code and student details. |
+| **student_report_StudentID.pdf** | Example of auto-generated hall ticket PDF containing QR Code and student details. |
 | **Staff_Login** | Staff login page (ID + password + email OTP verification). |
 | **Staff_Dashboard** | Staff dashboard showing invigilation duties and exam session details. |
 | **Staff_Timetable** | Detailed schedule of hall duties for staff across exam dates and sessions. |
