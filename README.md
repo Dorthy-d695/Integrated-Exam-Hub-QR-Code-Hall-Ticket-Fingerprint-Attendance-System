@@ -86,7 +86,7 @@ It enhances operational efficiency while ensuring inclusivity, transparency, and
   - dotenv – for environment variable management  
   - werkzeug – for password hashing and security  
   - flask_cors, flask_logging – for CORS and access log handling
-  - **Streamlit (for allocation visualization/demo)**
+  - **Streamlit (for allocation visualization)**
 
 
 ---
