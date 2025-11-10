@@ -7,7 +7,7 @@ Each screenshot demonstrates a key function of the system and showcases the work
 
 ## 1. Website Screenshots
 
-| Screen | Description |
+| Screenshot Name  | Description | File Location |
 |-------|-------------|
 | **Home_Page_of_Website** | Main landing page that provides access to Student and Staff login portals. |
 | **Student_Portal_Login_Password** | Student login page where student enters ID and password. |
