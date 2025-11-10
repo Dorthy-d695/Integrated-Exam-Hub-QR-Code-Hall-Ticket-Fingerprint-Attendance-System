@@ -9,7 +9,7 @@ Each screenshot demonstrates a key function of the system and showcases the work
 
 | Screenshot Name | Description | File Location |
 |-----------------|-------------|---------------|
-| **Home_Page_of_Website** | Main landing page that provides access to Student and Staff login portals. | `output/website/Home_Page_of_Website.jpg` |
+| **Home_Page_of_Website** | Main landing page that provides access to Student and Staff login portals. | [output/website/Home_Page_of_Website.jpg](output/website/Home_Page_of_Website.jpg) |
 | **Student_Portal_Login_Password** | Student login page where student enters Student ID and Password. | `output/website/Student_Portal_Login_Password.jpg` |
 | **Student_Portal_Email_Login** | Email verification screen for OTP-based second-level authentication. | `output/website/Student_Portal_Email_Login.jpg` |
 | **Student_OTP_Verification** | Screen where the student enters the received OTP to complete login. | `output/website/Student_OTP_Verification.jpg` |
