@@ -21,7 +21,7 @@ It enhances operational efficiency while ensuring inclusivity, transparency, and
 -  Schedules **exam rooms** for each session (with date and time).  
 -  Allocates **students to rooms** based on their registered exams and seat numbers.  
 -  Ensures **inclusive access**:  
-              -  Students with disabilities are prioritized for first-floor rooms (as lifts or ramps may be unavailable, inaccessible, or                  not functional in many colleges).  
+  - Students with disabilities are prioritized for first-floor rooms (as lifts or ramps may be unavailable, inaccessible, or                  not functional in many colleges).  
 -  After student allocation, assigns **staff invigilators** to each room and session.  
 -  Generates **digital hall tickets** for students and displays staff schedules (date, time, and assigned exam hall) on their dashboards.
 
@@ -31,31 +31,31 @@ It enhances operational efficiency while ensuring inclusivity, transparency, and
 -  Combines **QR Code** and **Fingerprint Scanning** for secure and verified student check-ins.  
 
 -  **QR Code Hall Ticket:**  
-               -  Each student’s QR code contains essential details such as **Subject ID**, **Subject Name**, **Exam Date**, **Session**,                   **Hall Name**, **Building**, and **Seat Number**.  
-               -  Scanning the QR code retrieves the student’s details directly from the web portal.  
+  - Each student’s QR code contains essential details such as **Subject ID**, **Subject Name**, **Exam Date**, **Session**,                   **Hall Name**, **Building**, and **Seat Number**.  
+  - Scanning the QR code retrieves the student’s details directly from the web portal.  
 
 -  **Fingerprint Verification:**  
-               -  Accessible **only to staff** through the mobile app.  
-               -  Each student’s fingerprint is securely stored and hashed in the database.  
-               -  Invigilator enters the **Student ID** → scans the fingerprint → system verifies against stored data.  
-               -  If the fingerprint matches, a **“Verification Success”** message appears.  
-               -  Both QR and fingerprint checks happen seamlessly within the app for quick identity validation.
+  - Accessible **only to staff** through the mobile app.  
+  - Each student’s fingerprint is securely stored and hashed in the database.  
+  - Invigilator enters the **Student ID** → scans the fingerprint → system verifies against stored data.  
+  - If the fingerprint matches, a **“Verification Success”** message appears.  
+  - Both QR and fingerprint checks happen seamlessly within the app for quick identity validation.
 
 ---
 
 ### 🔹 Dashboards (Separate for Students & Staff)
 -  **Dedicated login portals** for each role.  
 -  **Two-step login verification:**  
-              -  Student/Staff ID + Password  
-              -  OTP sent to the registered college email ID (Both the ID and email ID are stored in the database, and the dashboard                       opens only when they are verified as correct.)
+  - Student/Staff ID + Password  
+  - OTP sent to the registered college email ID (Both the ID and email ID are stored in the database, and the dashboard                       opens only when they are verified as correct.)
   
 -  **Student Dashboard:**  
-              -  Download hall tickets.  
-              -  View exam schedules and venues.  
+  - Download hall tickets.  
+  - View exam schedules and venues.  
 
 -  **Staff Dashboard:**  
-              -  View invigilation assignments by date and session.  
-              -  Access student verification data and exam details.
+  - View invigilation assignments by date and session.  
+  - Access student verification data and exam details.
 
 ---
 
