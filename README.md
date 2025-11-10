@@ -17,13 +17,13 @@ It enhances operational efficiency while ensuring inclusivity, transparency, and
 ## ‣ Features
 
 ### 🔹 Dynamic Hall Allocation
--  Automatically generates **timetables for each course**.  
--  Schedules **exam rooms** for each session (with date and time).  
--  Allocates **students to rooms** based on their registered exams and seat numbers.  
--  Ensures **inclusive access**:  
-  - Students with disabilities are prioritized for first-floor rooms (as lifts or ramps may be unavailable, inaccessible, or                  not functional in many colleges).  
--  After student allocation, assigns **staff invigilators** to each room and session.  
--  Generates **digital hall tickets** for students and displays staff schedules (date, time, and assigned exam hall) on their dashboards.
+- Automatically generates **timetables for each course**.  
+- Schedules **exam rooms** for each session (with date and time).  
+- Allocates **students to rooms** based on their registered exams and seat numbers.  
+- Ensures **inclusive access**:  
+    - Students with disabilities are prioritized for first-floor rooms (as lifts or ramps may be unavailable, inaccessible, or not functional in many colleges).  
+- After student allocation, assigns **staff invigilators** to each room and session.  
+- Generates **digital hall tickets** for students and displays staff schedules (date, time, and assigned exam hall) on their dashboards.
 
 ---
 
