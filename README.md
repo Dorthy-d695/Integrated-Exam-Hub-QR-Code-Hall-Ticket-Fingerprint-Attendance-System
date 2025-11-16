@@ -72,6 +72,15 @@ It enhances operational efficiency while ensuring inclusivity, transparency, and
 
 ---
 
+### 🔹 Access Log Monitoring
+-  Your system records every login / page request, including:
+    - User IP address
+    - Timestamp
+    - Request type
+-  This ensures full transparency and traceability for security audits.
+
+---
+
 ## ‣ Technologies Used
 
 ### 🔹 Web Application
