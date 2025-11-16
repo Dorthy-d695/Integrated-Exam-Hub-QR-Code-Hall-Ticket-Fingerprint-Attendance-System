@@ -73,10 +73,10 @@ For security reasons, actual screenshots are not included in this repository.
 
 | Screenshot Name | Description | File Location |
 |-----------------|-------------|---------------|
-| **App_Main_Page** | Main page with 3 options: Scan QR, Store Fingerprint, Authenticate Fingerprint. | [View Screenshot](output/mobile/App_Main_Page.jpg) |
-| **StudentId_Verification** | Student ID entered before proceeding to QR/fingerprint actions. | [View Screenshot](output/mobile/StudentId_Verification.jpg) |
-| **QR_Code_Scan** | QR code of hall ticket scanned; triggers dashboard display. | [View Screenshot](output/mobile/QR_Code_Scan.jpg) |
-| **Student_Dashboard_Mobile** | Displays student details and timetable in app after QR scan. | [View Screenshot](output/mobile/Student_Dashboard_Mobile.jpg) |
+| **App_Main_Page** | Main page with 3 options: Scan QR, Store Fingerprint, Authenticate Fingerprint. | [View Screenshot](mobile/App_Main_Page.jpg) |
+| **StudentId_Verification** | Student ID entered before proceeding to QR/fingerprint actions. | [View Screenshot](mobile/StudentId_Verification.jpg) |
+| **QR_Code_Scan** | QR code of hall ticket scanned; triggers dashboard display. | [View Screenshot](mobile/QR_Code_Scan.jpg) |
+| **Student_Dashboard_Mobile** | Displays student details and timetable in app after QR scan. | [View Screenshot](mobile/Student_Dashboard_Mobile.jpg) |
 | **Fingerprint_Stored_Success** | Fingerprint successfully stored. | _Biometric screenshot not shown for security reasons_ |
 | **Authentication_Success** | Fingerprint authentication successful. | _Biometric screenshot not shown for security reasons_ |
 
@@ -96,4 +96,4 @@ Sending instant email notifications to students showing their exam date, time, h
 (Upcoming enhancement: WhatsApp alerts)
 | Screenshot Name | Description | View Screenshot |
 |-----------------|-------------|-----------------|
-| **Exam_Location_Details_And_Alerts** | Email notification sent to students with exam venue and alert details. | [View Screenshot](Other_Features/Exam_Location_Details&Alerts.jpg) |
+| **Exam_Location_Details_And_Alerts** | Email notification sent to students with exam venue and alert details. | [View Screenshot](Other_Features/Exam_Location_Details&Alerts.png) |
