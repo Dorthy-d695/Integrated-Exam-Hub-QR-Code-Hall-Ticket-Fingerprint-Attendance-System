@@ -68,14 +68,17 @@ Each screenshot below represents a **verification step** from the hall allocatio
 
 ## 3. Mobile Application Screenshots
 
+⚠️ Note: Fingerprint-related screens contain sensitive biometric information.
+For security reasons, actual screenshots are not included in this repository.
+
 | Screenshot Name | Description | File Location |
 |-----------------|-------------|---------------|
 | **App_Main_Page** | Main page with 3 options: Scan QR, Store Fingerprint, Authenticate Fingerprint. | [View Screenshot](output/mobile/App_Main_Page.jpg) |
 | **StudentId_Verification** | Student ID entered before proceeding to QR/fingerprint actions. | [View Screenshot](output/mobile/StudentId_Verification.jpg) |
 | **QR_Code_Scan** | QR code of hall ticket scanned; triggers dashboard display. | [View Screenshot](output/mobile/QR_Code_Scan.jpg) |
 | **Student_Dashboard_Mobile** | Displays student details and timetable in app after QR scan. | [View Screenshot](output/mobile/Student_Dashboard_Mobile.jpg) |
-| **Fingerprint_Stored_Success** | Fingerprint successfully stored. | [View Screenshot](output/mobile/Fingerprint_Stored_Success.jpg) |
-| **Authentication_Success** | Fingerprint authentication successful. | [View Screenshot](output/mobile/Authentication_Success.jpg) |
+| **Fingerprint_Stored_Success** | Fingerprint successfully stored. | _Biometric screenshot not shown for security reasons_ |
+| **Authentication_Success** | Fingerprint authentication successful. | _Biometric screenshot not shown for security reasons_ |
 
 
 ## 4. Password Hash Verification
@@ -86,7 +89,7 @@ Each screenshot below represents a **verification step** from the hall allocatio
 ## 5. Access Log Monitoring
 | Screenshot Name | Description | View Screenshot |
 |-----------------|-------------|-----------------|
-| **Access_Log** | Shows anonymized request logs including timestamp, user type, and action performed. | [View Screenshot](Other_Features/Access_Log.jpg) |
+| **Access_Log** | Shows anonymized request logs including timestamp, user type, and action performed. | _Not included – contains sensitive log data_ |
 
 ## 6. Real‑Time Exam Alerts
 Sending instant email notifications to students showing their exam date, time, hall, and building.
