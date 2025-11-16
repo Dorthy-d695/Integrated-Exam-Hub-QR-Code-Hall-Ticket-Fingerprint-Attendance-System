@@ -7,6 +7,8 @@ Each screenshot demonstrates a key function of the system and showcases the work
 
 ## 1. Website Screenshots
 
+(Include screenshots for all web pages like login, dashboard, timetable, hall ticket PDF)
+
 | Screenshot Name | Description | File Location |
 |-----------------|-------------|---------------|
 | **Home_Page_of_Website** | Main landing page that provides access to Student and Staff login portals. | [View Screenshot](website/Home_Page_of_Website.jpg) |
@@ -34,8 +36,6 @@ This section shows the **Streamlit-based visualization module** used for validat
 - Room reuse efficiency and conflict checks
 
 Each screenshot below represents a **verification step** from the hall allocation pipeline.
-
----
 
 | Screenshot Name | Description | View Screenshot |
 |-----------------|-------------|-----------------|
@@ -65,3 +65,32 @@ Each screenshot below represents a **verification step** from the hall allocatio
 | **Student_Details_Check_Filter** | Search/filter by Student ID to verify hall assignment. | [View Screenshot](Hall_Allocation/Student_Details_Check_Filter.jpg) |
 | **Student_Details_Check** | Detailed student allocation (course, session, class). | [View Screenshot](Hall_Allocation/Student_Details_Check.jpg) |
 | **Student_Timetable_Check** | Final student-specific timetable verification view. | [View Screenshot](Hall_Allocation/Student_Timetable_Check.jpg) |
+
+## 3. Mobile Application Screenshots
+
+| Screenshot Name | Description | File Location |
+|-----------------|-------------|---------------|
+| **App_Main_Page** | Main page with 3 options: Scan QR, Store Fingerprint, Authenticate Fingerprint. | [View Screenshot](output/mobile/App_Main_Page.jpg) |
+| **StudentId_Verification** | Student ID entered before proceeding to QR/fingerprint actions. | [View Screenshot](output/mobile/StudentId_Verification.jpg) |
+| **QR_Code_Scan** | QR code of hall ticket scanned; triggers dashboard display. | [View Screenshot](output/mobile/QR_Code_Scan.jpg) |
+| **Student_Dashboard_Mobile** | Displays student details and timetable in app after QR scan. | [View Screenshot](output/mobile/Student_Dashboard_Mobile.jpg) |
+| **Fingerprint_Stored_Success** | Fingerprint successfully stored. | [View Screenshot](output/mobile/Fingerprint_Stored_Success.jpg) |
+| **Authentication_Success** | Fingerprint authentication successful. | [View Screenshot](output/mobile/Authentication_Success.jpg) |
+
+
+## 4. Password Hash Verification
+| Screenshot Name | Description | View Screenshot |
+|-----------------|-------------|-----------------|
+| **Password_Hash_Check** | Verifies that staff and student passwords are hashed, not stored in raw form. | [View Screenshot](Hall_Allocation/Password_Hash_Check.jpg) |
+
+## 5. Access Log Monitoring
+| Screenshot Name | Description | View Screenshot |
+|-----------------|-------------|-----------------|
+| **Access_Log** | Shows anonymized request logs including timestamp, user type, and action performed. | [View Screenshot](Other_Features/Access_Log.jpg) |
+
+## 6. Real‑Time Exam Alerts
+Sending instant email notifications to students showing their exam date, time, hall, and building.
+(Upcoming enhancement: WhatsApp alerts)
+| Screenshot Name | Description | View Screenshot |
+|-----------------|-------------|-----------------|
+| **Exam_Location_Details_And_Alerts** | Email notification sent to students with exam venue and alert details. | [View Screenshot](Other_Features/Exam_Location_Details&Alerts.jpg) |
